@@ -1,4 +1,4 @@
-baseURL = "https://stefanocosti.it"
+baseURL = "https://thriving-eclair-80dc52.netlify.app/"
 title   = "Stefano Costi"
 languageCode = "en-us"
 theme = "hello-friend-ng"
