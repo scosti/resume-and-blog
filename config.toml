@@ -61,11 +61,13 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   # used for the CV link
-  [params.homeSubtitle]
-  ItaLink = "https://drive.google.com/file/d/1zeWiscqqRbnhswthMFl2OqN_IVolqOya/view?usp=sharing! "
-  EngLink = "https://drive.google.com/file/d/1zeWiscqqRbnhswthMFl2OqN_IVolqOya/view?usp=sharing! "
-  engtext = "Curriculum Vitae eng"
-  itatext = "Curriculum Vitae ita"
+
+  homeSubtitle = "Software Developer"
+  #[params.homeSubtitle]
+  #ItaLink = "Costi Stefano.pdf"
+  #EngLink = "Costi Stefano.pdf"
+  #engtext = "Curriculum Vitae eng"
+  #itatext = "Curriculum Vitae ita"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -98,7 +100,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -155,11 +157,11 @@ disableHugoGeneratorInject = false
   #   url = ""
 
   # Uncomment this if you want a portrait on your start page
-  #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  
+  [params.portrait]
+    path     = "IMG_6209.jpg"
+    alt      = "Portrait"
+    maxWidth = "240px"
 
   # Social icons
 
@@ -182,18 +184,23 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
+ #   subtitle  = 'Software Developer'
+ #   weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.it]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
+ #   subtitle  = 'Software Developer'
+ #   weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
 
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+[[menu.main]]
+    identifier = "about"
+    name       = "Download Corriculum Vitae ita"
+    url        = "Costi Stefano.pdf"
+
+#  [[menu.main]]
+#   identifier = "posts"
+#   name       = "Posts"
+#   url        = "posts/"

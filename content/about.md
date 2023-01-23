@@ -8,6 +8,7 @@ aliases = ["about-us","about-hugo","contact"]
 
 Download the last version of my **curriculum vitae**:
 
-* https://drive.google.com/file/d/1zeWiscqqRbnhswthMFl2OqN_IVolqOya/view?usp=sharing
+* ciao
+
 
 
