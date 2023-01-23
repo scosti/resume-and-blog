@@ -61,7 +61,11 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   # used for the CV link
-  homeSubtitle = "https://drive.google.com/file/d/1zeWiscqqRbnhswthMFl2OqN_IVolqOya/view?usp=sharing! "
+  [params.homeSubtitle]
+  ItaLink = "https://drive.google.com/file/d/1zeWiscqqRbnhswthMFl2OqN_IVolqOya/view?usp=sharing! "
+  EngLink = "https://drive.google.com/file/d/1zeWiscqqRbnhswthMFl2OqN_IVolqOya/view?usp=sharing! "
+  engtext = "Curriculum Vitae eng"
+  itatext = "Curriculum Vitae ita"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"

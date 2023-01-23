@@ -1,8 +1,8 @@
 ---
 author:
-  name: "Michael Henderson"
+  name: "Stefano Costi"
 date: 2014-09-28
-linktitle: Creating a New Theme
+linktitle: Creating this static site with hugo
 type:
 - post
 - posts
