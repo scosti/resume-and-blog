@@ -197,7 +197,7 @@ disableHugoGeneratorInject = false
 
 [[menu.main]]
     identifier = "about"
-    name       = "Download Corriculum Vitae ita"
+    name       = "Corriculum Vitae"
     url        = "Costi Stefano.pdf"
 
 #  [[menu.main]]
