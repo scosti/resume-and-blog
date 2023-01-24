@@ -196,9 +196,9 @@ disableHugoGeneratorInject = false
 [menu]
 
 [[menu.main]]
-    identifier = "about"
-    name       = "Corriculum Vitae"
-    url        = "Costi Stefano.pdf"
+identifier = "about"
+name       = "Corriculum Vitae ita"
+url        = "Costi Stefano.pdf"
 
 #  [[menu.main]]
 #   identifier = "posts"
