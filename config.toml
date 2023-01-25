@@ -144,7 +144,8 @@ disableHugoGeneratorInject = false
     logoCursorColor    = "#3390FF"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
-    logoCursorChangePage = true
+    # Append to logoText the current url pathname
+    logoCursorPathname = true
 
   # Commento is more than just a comments widget you can embed — 
   # it’s a return to the roots of the internet. 
