@@ -100,7 +100,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = false
+  enableGlobalLanguageMenu = true
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -136,7 +136,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /ste/"
+    logoText     = "$ cd /"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -144,6 +144,7 @@ disableHugoGeneratorInject = false
     logoCursorColor    = "#3390FF"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
+    logoCursorChangePage = true
 
   # Commento is more than just a comments widget you can embed — 
   # it’s a return to the roots of the internet. 
@@ -161,7 +162,7 @@ disableHugoGeneratorInject = false
   [params.portrait]
     path     = "IMG_6209.jpg"
     alt      = "Portrait"
-    maxWidth = "240px"
+    maxWidth = "170px"
 
   # Social icons
 
@@ -177,30 +178,30 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://linkedin.com/in/stefano-costi-b00560120"
 
-  [[params.social]]
-    name = "instagram"
-    url  = "https://instagram.com/stefanocosti95"
+  #[[params.social]]
+  #  name = "instagram"
+  #  url  = "https://instagram.com/stefanocosti95"
 
 
 [languages]
   [languages.en]
- #   subtitle  = 'Software Developer'
- #   weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  subtitle  = 'Software Developer'
+  weight    = 1
+  copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.it]
- #   subtitle  = 'Software Developer'
- #   weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  subtitle  = 'Software Developer'
+  weight    = 2
+  copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
 
 [[menu.main]]
-identifier = "about"
-name       = "Corriculum Vitae ita"
-url        = "Costi Stefano.pdf"
+identifier = "corricolum"
+name       = "Corriculum"
+url        = "about/"
 
-#  [[menu.main]]
-#   identifier = "posts"
-#   name       = "Posts"
-#   url        = "posts/"
+[[menu.main]]
+identifier = "posts"
+name       = "Posts"
+url        = "posts/"

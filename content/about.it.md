@@ -6,6 +6,6 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Hugo Authors"
 +++
 
-Download the last version of my **curriculum vitae**:
+Scarica l'ulima versione del mio **curriculum vitae**:
 
 * [Costi Stefano ita.pdf](/CostiStefano.pdf)
