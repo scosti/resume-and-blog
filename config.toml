@@ -198,10 +198,9 @@ disableHugoGeneratorInject = false
 [menu]
 
 [[menu.main]]
-identifier = "curriculum"
-name       = "Curriculum"
-url        = "curriculum/"
-
+identifier = "resume"
+name       = "Resume"
+url        = "resume/"
 [[menu.main]]
 identifier = "posts"
 name       = "Posts"

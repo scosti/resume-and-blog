@@ -1,6 +1,6 @@
 +++
 title = "Curriculum Vitae"
-date = "2014-04-09"
+date = "2023-01-09"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "Hugo Authors"
@@ -8,4 +8,4 @@ aliases = ["about-us","about-hugo","contact"]
 
 Download the last version of my **curriculum vitae**:
 
-* [Costi Stefano ita.pdf](/CostiStefano.pdf)
+* [Costi Stefano eng.pdf](/CostiStefano.pdf)
