@@ -39,4 +39,4 @@ if(logo){
 When I approached to the project of this website I was wondering if is better a ready-to-use theme or make it by myself.
 Actually i found out the best solution was use a Hugo theme and contribute to the open source project.
 Surely this is an opportunity that gives a lot of value to your project.
-I was exited to contribute to a Github project, definitly it was the best choice. I learned the importance to share new functionality because many people could use them in future. Now I know that open surce is the right approach for grow strongher product. I hope to continue to add value to the open source community. 
+I was exited to contribute to a Github project, definitly it was the best choice. I learned the importance of sharing new functionalities because many people will use them in future. Now I know that open surce is the right approach for grow a product strongher. I hope to continue to add value to the open source community. 
