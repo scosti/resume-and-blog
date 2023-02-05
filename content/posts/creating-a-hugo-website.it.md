@@ -17,10 +17,10 @@ Se necessiti di una piattaforma per compilare un sito Hugo e avere un deploy aut
 
 ### La mia prima pull request in un progetto open source
 La mia prima pull request l'ho fatta per gestire l'animazione del logo per questo tema Hugo.
-Se si cambia pagina il percorso mostrato cambia di conseguenza. dopo alcuni giorni la PR è stata accettata e è stato fatto merge in master.
+Se si cambia pagina il percorso mostrato cambia di conseguenza. dopo alcuni giorni la PR è stata accettata ed è stato fatto merge in master.
 
 
-un po del codice javascript necessario per concatenare l'url path al testo contenuto nel logo:
+Un po del codice javascript necessario per concatenare l'url path al testo contenuto nel logo:
 (l'evento `window.onload` viene scatenato al caricamento di una nuova window.)
 ```
 const language = document.getElementsByTagName('html')[0].lang;

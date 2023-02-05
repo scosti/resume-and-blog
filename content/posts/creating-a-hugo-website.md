@@ -22,8 +22,8 @@ Moreover in this platform you have configurable piplines and many serverless ser
 My first pull request was about animate the logo in the menu bar of this Hugo theme. 
 if you click in different pages, the path displayed will changed. After some days the PR was accepted and it was meged in master.
 
-here some of the javascript code used for concat the page url with the logo text:
-(the event `window.onload` is fired when new window is loading.)
+Here some of the javascript,
+this code concatenate the page url with the logo text `logo.textContent`. The event `window.onload` is fired when new window is loading.
 ```
 const language = document.getElementsByTagName('html')[0].lang;
 const logo = document.querySelector(".logo__pathname");
@@ -35,7 +35,6 @@ if(logo){
   };
 }
 ```
-
 ### Why contribute to an open source project ?
 When I approached to the project of this website I was wondering if is better a ready-to-use theme or make it by myself.
 Actually i found out the best solution was use a Hugo theme and contribute to the open source project.
