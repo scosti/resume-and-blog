@@ -8,4 +8,4 @@ aliases = ["about-us","about-hugo","contact"]
 
 Scarica l'ulima versione del mio **curriculum vitae**:
 
-* [Costi Stefano ita.pdf](/CostiStefano.pdf)
+* [Costi Stefano ita.pdf](/CostiStefano.it.pdf)
